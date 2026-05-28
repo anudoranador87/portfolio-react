@@ -21,7 +21,7 @@ An advanced, production-ready frontend portfolio built with React, designed to s
 ## 📂 Core Projects Showcased
 
 1.  **LostDesk:** A comprehensive hotel lost-and-found management system utilizing React and Supabase.
-2.  **EquiShift Málaga:** An algorithmic rotation optimizer designed to solve scheduling conflicts in hospitality environments.
+2.  **Trivial Shift:** An algorithmic rotation optimizer designed to solve scheduling conflicts in hospitality environments.
 3.  **Campus & Crema:** A modern web application for a specialized university cafeteria, migrated from vanilla architecture to modular React components.
 
 ## 🔧 Local Development
