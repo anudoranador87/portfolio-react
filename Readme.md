@@ -1,39 +1,39 @@
-# Portfolio: Jose María Aparicio | Frontend Developer
+# Responsive React Portfolio | Jose María Aparicio
 
-Welcome to my professional portfolio. This project serves as the culmination of my journey from hotel management into the world of software engineering. 
+An advanced, production-ready frontend portfolio built with React, designed to showcase my technical engineering journey, flagship projects, and UI/UX implementation. Fully deployed and optimized on Vercel.
 
-While the foundation of this project began with the **Meta Advanced React certification on Coursera**, I have significantly adapted, expanded, and customized the architecture to reflect my personal coding standards and functional requirements.
+🚀 **Live Demo:** [portfolio-react-beta-vert.vercel.app](https://portfolio-react-beta-vert.vercel.app)
 
-## 🚀 About This Project
+## 🛠️ Tech Stack & Architecture
 
-This portfolio is more than a showcase; it is a living document of my technical growth. 
+*   **Frontend Core:** React (Advanced Hooks, Context API, Component Composition), JavaScript (ES6+).
+*   **Styling & UI/UX:** Tailwind CSS / Chakra UI (Responsive design, mobile-first approach, F/Z eye-tracking patterns).
+*   **Backend Integration:** Supabase (Data management and role-based structures).
+*   **Deployment & Tooling:** Vercel, Git/GitHub, Vite.
 
-### Key Enhancements & Customizations
-Unlike the baseline course project, I have implemented several custom features:
-*   **Modular Architecture:** Refactored the codebase into highly reusable, decoupled components for better scalability and maintenance.
-*   **Dynamic Tech Stack:** Implemented a dedicated `TechStackSection` with custom visual tagging and responsive design to highlight my mastery of the React ecosystem.
-*   **Journey Tracking:** Added a "365-Day Coding Journey" section to document my discipline and transition from hospitality operations to frontend development.
-*   **Product-Minded Development:** Integrated custom UX patterns and responsive layouts, ensuring that every project (such as *LostDesk* and *EquiShift*) focuses on solving real-world friction.
-*   **Enhanced Interactivity:** Added modern hover effects, professional iconography, and dynamic state management to ensure a premium user experience.
+## 🌟 Key Features & Recent Updates
 
-## 🛠 Tech Stack
-I specialize in the modern frontend stack:
-*   **Core:** React (Hooks: useEffect, useReducer), JavaScript (ES6+)
-*   **Styling:** Chakra UI, Tailwind CSS
-*   **Backend & Data:** Supabase (for authentication and database management)
-*   **Tools:** Git/GitHub (Engineering Journal), Figma (UI/UX prototyping), Capacitor (Mobile deployment)
+*   **Interactive Journey Section:** A custom timeline feature documenting my strategic transition into software development, highlighting daily consistency and technical milestones.
+*   **Decoupled Architecture:** Clean component split ensuring reusability, optimal rendering states, and scalable folder organization.
+*   **Enhanced Personalized Footer:** Refactored global layout anchor integrating localized context, dynamic links, and professional UI polish.
+*   **Product-Minded Layouts:** Interfaces built with a strict focus on user behavior, accessibility, and smooth state transitions.
 
-## 📋 My Background
-Transitioning from 8 years of international experience in the hospitality industry, I bring a unique perspective to software development:
-*   **Service-Oriented:** I design interfaces that prioritize user needs, influenced by my background in high-pressure hotel environments.
-*   **Disciplined Learner:** I document my code-learning process daily in my "Cuaderno de Pitágoras," ensuring deep understanding before implementation.
-*   **Hardware Knowledge:** I possess hands-on experience with hardware configuration, providing me with a holistic view of how software interacts with systems.
+## 📂 Core Projects Showcased
 
-## 📈 Future Goals
-I am currently working towards the **Microsoft Certified: Azure AI Fundamentals (AI-900)** certification to further enhance my ability to integrate AI-driven solutions into web applications.
+1.  **LostDesk:** A comprehensive hotel lost-and-found management system utilizing React and Supabase.
+2.  **EquiShift Málaga:** An algorithmic rotation optimizer designed to solve scheduling conflicts in hospitality environments.
+3.  **Campus & Crema:** A modern web application for a specialized university cafeteria, migrated from vanilla architecture to modular React components.
 
----
+## 🔧 Local Development
 
-**Built with passion from Málaga, Spain.** 
+To run this project locally and explore the component ecosystem:
 
-[GitHub Profile](https://github.com/anudoranador87) | [LinkedIn](https://linkedin.com/in/tu-perfil)
+```bash
+# Clone the repository
+git clone [https://github.com/anudoranador87/Mi-Camino-Web-365.git](https://github.com/anudoranador87/Mi-Camino-Web-365.git)
+
+# Install dependencies
+npm install
+
+# Start the local development server
+npm run dev (or npm start)
