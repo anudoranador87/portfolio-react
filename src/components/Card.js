@@ -1,26 +1,36 @@
-const Card = ({ title, description, imageSrc }) => {
+import { Heading, HStack, Image, Text, VStack, Box, Link } from "@chakra-ui/react";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
+import React from "react";
+
+const Card = ({ title, description, imageSrc, url }) => {
   return (
-    <VStack 
-      color="black" 
-      backgroundColor="white" 
-      borderRadius="xl" 
-      align="flex-start" 
-      spacing={4}
+    <Box 
+      borderRadius="lg" 
+      overflow="hidden" 
+      bg="white" 
+      color="black"
     >
-      <Image src={imageSrc} borderRadius="xl" />
-      
-      <VStack px={4} pb={4} align="flex-start" spacing={2}>
-        {/* Fila horizontal: Título y flecha */}
-        <HStack justifyContent="space-between" width="100%">
-          <Heading as="h3" size="md">{title}</Heading>
-          <FontAwesomeIcon icon={faArrowRight} size="1x" />
-        </HStack>
-        
-        {/* Descripción */}
-        <Text color="#64748b" fontSize="md">{description}</Text>
-      </VStack>
-    </VStack>
+      <Image src={imageSrc} alt={title} />
+      <Box p={4}>
+        <Heading size="md">{title}</Heading>
+        <Text mt={2} color="gray.600">{description}</Text>
+        <Link 
+          href={url} 
+          isExternal 
+          _hover={{ textDecoration: 'none' }}
+        >
+          <HStack 
+            mt={4} 
+            color="blue.500" 
+            cursor="pointer"
+          >
+            <Text fontWeight="bold">See more</Text>
+            <ArrowForwardIcon />
+          </HStack>
+        </Link>
+      </Box>
+    </Box>
   );
 };
 
-export default Card
+export default Card;
