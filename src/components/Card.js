@@ -5,11 +5,13 @@ import React from "react";
 const Card = ({ title, description, imageSrc, url }) => {
   return (
     <Box 
-      borderRadius="lg" 
-      overflow="hidden" 
-      bg="white" 
-      color="black"
-    >
+    borderRadius="lg" 
+    overflow="hidden" 
+    bg="white" 
+    color="black"
+    transition="transform 0.2s" 
+    _hover={{ transform: "scale(1.03)", boxShadow: "xl" }} 
+  >
       <Image src={imageSrc} alt={title} />
       <Box p={4}>
         <Heading size="md">{title}</Heading>

@@ -1,26 +1,23 @@
-import { ChakraProvider } from "@chakra-ui/react";
-import Header from "./components/Header";
+import React from "react";
 import LandingSection from "./components/LandingSection";
+import TechStackSection from "./components/TechStackSection";
 import ProjectsSection from "./components/ProjectsSection";
-import ContactMeSection from "./components/ContactMeSection";
+import ContactMeSection from "./components/ContactMeSection"; // Asegúrate de tener este import
+import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { AlertProvider } from "./context/alertContext";
-import Alert from "./components/Alert";
+import JourneySection from "./components/JourneySection";
 
 function App() {
   return (
-    <ChakraProvider>
-      <AlertProvider>
-        <main>
-          <Header />
-          <LandingSection />
-          <ProjectsSection />
-          <ContactMeSection />
-          <Footer />
-          <Alert />
-        </main>
-      </AlertProvider>
-    </ChakraProvider>
+    <main>
+      <Header />
+      <LandingSection />
+      <JourneySection />
+      <TechStackSection /> 
+      <ProjectsSection />
+      <ContactMeSection /> {/* ¡Aquí estaba el formulario escondido! */}
+      <Footer />
+    </main>
   );
 }
 
